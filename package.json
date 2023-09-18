@@ -1,0 +1,22 @@
+{
+  "name": "pandabase-mock",
+  "version": "0.1.0",
+  "module": "./src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev:hot": "bun --hot ./src/index.ts",
+    "dev:watch": "bun --watch ./src/index.ts",
+    "start": "bun run ./src/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "hono": "^3.6.3"
+  }
+}
