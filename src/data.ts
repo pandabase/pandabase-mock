@@ -34,4 +34,45 @@ const customers = [
   },
 ];
 
-export { customers };
+const products = [
+  {
+    id: 1,
+    title: "Pandabase T-Shirt",
+    description: "Official pandabase t-shirt made for you",
+    price_usd: 25,
+    handle: "official-t-shirt",
+    images: [
+      "aurevocdn.xyz/pandabase/shops/1/public/assets/products/1/t-shirt.png",
+      "aurevocdn.xyz/pandabase/shops/1/public/assets/products/1/2t-shirt.png",
+      "aurevocdn.xyz/pandabase/shops/1/public/assets/products/1/3-shirt.png",
+      "aurevocdn.xyz/pandabase/shops/1/public/assets/products/1/4-shirt.png",
+      "aurevocdn.xyz/pandabase/shops/1/public/assets/products/1/5-shirt.png",
+    ],
+    in_stock: true,
+    tags: ["t-shirt"],
+    discount: "0",
+    created_at: "2021-10-10T17:30:00Z",
+    updated_at: "2021-10-10T17:30:00Z",
+  },
+  {
+    id: 2,
+    title: "Pandabase Mug",
+    description: "Official pandabase Mug made for you",
+    price_usd: 25,
+    handle: "official-Mug",
+    images: [
+      "aurevocdn.xyz/pandabase/shops/2/public/assets/products/2/t-Mug.png",
+      "aurevocdn.xyz/pandabase/shops/2/public/assets/products/2/2t-Mug.png",
+      "aurevocdn.xyz/pandabase/shops/2/public/assets/products/2/3-Mug.png",
+      "aurevocdn.xyz/pandabase/shops/2/public/assets/products/2/4-Mug.png",
+      "aurevocdn.xyz/pandabase/shops/2/public/assets/products/2/5-Mug.png",
+    ],
+    in_stock: true,
+    tags: ["mug"],
+    discount: "0",
+    created_at: "2021-10-10T17:30:00Z",
+    updated_at: "2021-10-10T17:30:00Z",
+  },
+];
+
+export { customers, products };
